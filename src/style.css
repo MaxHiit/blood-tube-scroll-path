@@ -10,8 +10,14 @@
 html,
 body {
 	width: 100vw;
-	height: 100%;
+	height: 100vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	display: none;
 }
 
 .webgl {
